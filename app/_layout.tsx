@@ -7,11 +7,14 @@ import { useColorScheme } from '@/hooks/use-color-scheme';
 import { View, Text, TextInput } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+
 export const unstable_settings = {
   anchor: '(tabs)',
 };
 
+
 export default function RootLayout() {
+  
   // const colorScheme = useColorScheme();
 
   return (
